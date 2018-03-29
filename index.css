@@ -1,6 +1,8 @@
 body {
 	background-color: #F5F5F5 !important;
 }
+
+
  a, p, h1, h2, h3, h4 {
 	font-family: 'Roboto', sans-serif !important;
 }
@@ -10,12 +12,15 @@ body {
  }
 
  .navbar-brand {
- 	font-size: 22px !important;
+ 	font-size: 26px !important;
+ 	font-family: 'Raleway', sans-serif !important;
  }
 
  .navbar-brand:hover {
  	color: #BFC0C0 !important;
+ 	text-decoration: underline !important;
  }
+
 
 .demo_link, .repo_link {
 	color: black;
@@ -44,9 +49,10 @@ body {
  	padding-left: 20px;
  }
 
- .intro_p {
- 	font-size: 18px;
+ .intro_p, .tech_p {
+ 	font-size: 24px;
  	font-weight: bold;
+ 	text-align: center;
  }
 
 .heading_about_container {
@@ -158,6 +164,12 @@ img:hover {
 	padding-left: 10px;
 	padding-right: 10px;
 }
+
+.tech_icons {
+	text-align: center;
+}
+
+
 
 
 
