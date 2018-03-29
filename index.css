@@ -1,10 +1,12 @@
+body {
+	background-color: #F5F5F5 !important;
+}
  a, p, h1, h2, h3, h4 {
 	font-family: 'Roboto', sans-serif !important;
 }
 
  .navbar {
  	background-color: #2D3142;
- 	padding-bottom: 20px;
  }
 
  .navbar-brand {
@@ -47,11 +49,26 @@
  	font-weight: bold;
  }
 
+.heading_about_container {
+ 	max-width: 200px;
+ 	margin: auto;
+ 	padding-top: 50px;
+ }
+
+ .heading_projects_container {
+ 	max-width: 200px;
+ 	margin: auto;
+ 	padding-top: 50px;
+ }
+
+
  h4 {
  	text-align: center;
- 	padding-top: 70px;
+ 	padding-top: 10px;
  	padding-bottom: 20px;
+ 	border-top: 2px solid #2D3142;
  }
+
 
  .projects {
  	padding-left: 10px;
@@ -141,3 +158,6 @@ img:hover {
 	padding-left: 10px;
 	padding-right: 10px;
 }
+
+
+
