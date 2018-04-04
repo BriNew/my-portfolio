@@ -1,7 +1,6 @@
 <!doctype html>
 <html lang="en">
   <head>
-    <!-- Required meta tags -->
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
     <link rel="icon" href="favicon.ico" type="image/x-icon"/>
@@ -15,7 +14,7 @@
   </head>
   <body>
 
-    <nav class="navbar fixed-top navbar-expand-md navbar-dark">
+    <nav role="navigation" class="navbar fixed-top navbar-expand-md navbar-dark">
       <div class="container">
       <a class="navbar-brand" href="#intro">Brian Newell</a>
       <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
@@ -46,84 +45,86 @@
       </div>
       </div>
     </nav>
-    <div class="intro" id="intro">
-      <div id="triangle-topleft"></div>
-        <img src="">
-        <p class="intro_p"> I am a web developer based in Madison, WI. <p>
-          <p class="tech_p">I use <span class="tech_html">HTML</span>, CSS, Javascript, ReactJS, and NodeJS.
-        <div class="tech_icons">
-          <i class="fab fa-html5 fa-3x"></i>
-          <i class="fab fa-css3 fa-3x"></i>
-          <i class="fab fa-js fa-3x"></i>
-          <i class="fab fa-react fa-3x"></i>
-          <i class="fab fa-node fa-3x"></i>
-        </div>
-    </div>
-
-    <div class="heading_about_container" id="about">
-      <h4 class="heading_about">About</h4>
-    </div>
-
-    <div class="about">
-        <p class="about_p">I love language. Solving language barriers is commonplace while living abroad and working in a multinational environment. I started coding while teaching and developing curriculum for the medical English program at the University of Health Sciences in Vientiane, Laos. Lao is not a widespread language and has a minimal presence on the web. Resources our team needed didn't exist, so I learned to code. Writing code and solving problems is engaging and fulfilling. It was a natural transition from working with verbal language.</p>  
-    </div>
-    <div class="heading_projects_container" id="h4_projects">
-      <h4 class="heading_projects">Projects</h4>
-    </div>
-    
-    <div class="projects" id="projects">
-      <!-- <h4 class="h4_projects">Projects</h4> -->
-      <div class="project_1">
-        <div class="screenshot">
-          <a href="https://young-eyrie-40144.herokuapp.com/" target="_blank">
-            <img src="imgs/gem_shop.PNG">
-          </a>
-        </div>
-        <div class="project_info">
-          <h3>Chapman's Gem & Mineral Shop</h3>
-          <p>MERN stack app for a popular local business and tourist attraction</p>
-          <div class="project_links">
-            <a href="https://young-eyrie-40144.herokuapp.com/" target="_blank"><p class="demo_link">Demo</p></a>
-            <a href="https://github.com/BriNew/gemshop" target="_blank"><p class="repo_link front_repo_link">Front-End Repo</p></a>
-            <a href="https://github.com/BriNew/gem-shop-backend" target="_blank"><p class="repo_link">Back-End Repo</p></a>
+    <main role="main">
+      <div class="intro" id="intro">
+        <div id="triangle-topleft"></div>
+          <img src="">
+          <p class="intro_p"> I am a web developer based in Madison, WI. <p>
+            <p class="tech_p">I use <span class="tech_html">HTML</span>, CSS, Javascript, ReactJS, and NodeJS.
+          <div class="tech_icons">
+            <i class="fab fa-html5 fa-3x"></i>
+            <i class="fab fa-css3 fa-3x"></i>
+            <i class="fab fa-js fa-3x"></i>
+            <i class="fab fa-react fa-3x"></i>
+            <i class="fab fa-node fa-3x"></i>
           </div>
-
-        </div>
-        
-      </div>    
-      <div class="project_2">
-        <div class="screenshot">
-          <a href="https://damp-meadow-73971.herokuapp.com/" target="_blank">
-            <img src="imgs\uhs_vocab.png">
-          </a>
-        </div>
-        <div class="project_info">
-          <h3>UHS Medical English Vocabulary</h3>
-          <p>A jQuery/NodeJS app for the University of Health Sciences in Vientiane, Laos. It gives the students a program specific Lao/English dictionary, and allows teachers to add/delete words.</p>
-          <div class="project_links">
-            <a href="https://damp-meadow-73971.herokuapp.com/" target="_blank"><p class="demo_link">Demo</p></a>
-            <a href="https://github.com/BriNew/uhs-vocab-app" target="_blank"><p class="repo_link">Repo</p></a>
-          </div>
-        </div>    
-      </div>    
-      <div class="project_3">
-        <div class="screenshot">
-          <a href="https://brinew.github.io/nyt-search-api/" target="_blank">
-            <img src="imgs\nyt_search.png">
-          </a>
-        </div>
-        <div class="project_info">
-          <h3>NYT Article Search</h3>
-          <p>jQuery app using the New York Times API to search their archives by state, month, and year.</p>
-          <div class="project_links">
-            <a href="https://brinew.github.io/nyt-search-api/" target="_blank"><p class="demo_link">Demo</p></a>
-            <a href="https://github.com/BriNew/nyt-search-api" target="_blank"><p class="repo_link">Repo</p></a>
-          </div>
-        </div>
-      </div>  
       </div>
 
-      <footer>
+      <div class="heading_about_container" id="about">
+        <h4 class="heading_about">About</h4>
+      </div>
+
+      <div class="about">
+          <p class="about_p">I love language. Solving language barriers is commonplace while living abroad and working in a multinational environment. I started coding while teaching and developing curriculum for the medical English program at the University of Health Sciences in Vientiane, Laos. Lao is not a widespread language and has a minimal presence on the web. Resources our team needed didn't exist, so I learned to code. Writing code and solving problems is engaging and fulfilling. It was a natural transition from working with verbal language.</p>  
+      </div>
+      <div class="heading_projects_container" id="h4_projects">
+        <h4 class="heading_projects">Projects</h4>
+      </div>
+      
+      <div class="projects" id="projects">
+        <!-- <h4 class="h4_projects">Projects</h4> -->
+        <div class="project_1">
+          <div class="screenshot">
+            <a href="https://young-eyrie-40144.herokuapp.com/" target="_blank">
+              <img src="imgs/gem_shop.PNG">
+            </a>
+          </div>
+          <div class="project_info">
+            <h3>Chapman's Gem & Mineral Shop</h3>
+            <p>MERN stack app for a popular local business and tourist attraction</p>
+            <div class="project_links">
+              <a href="https://young-eyrie-40144.herokuapp.com/" target="_blank"><p class="demo_link">Demo</p></a>
+              <a href="https://github.com/BriNew/gemshop" target="_blank"><p class="repo_link front_repo_link">Front-End Repo</p></a>
+              <a href="https://github.com/BriNew/gem-shop-backend" target="_blank"><p class="repo_link">Back-End Repo</p></a>
+            </div>
+
+          </div>
+          
+        </div>    
+        <div class="project_2">
+          <div class="screenshot">
+            <a href="https://damp-meadow-73971.herokuapp.com/" target="_blank">
+              <img src="imgs\uhs_vocab.png">
+            </a>
+          </div>
+          <div class="project_info">
+            <h3>UHS Medical English Vocabulary</h3>
+            <p>A jQuery/NodeJS app for the University of Health Sciences in Vientiane, Laos. It gives the students a program specific Lao/English dictionary, and allows teachers to add/delete words.</p>
+            <div class="project_links">
+              <a href="https://damp-meadow-73971.herokuapp.com/" target="_blank"><p class="demo_link">Demo</p></a>
+              <a href="https://github.com/BriNew/uhs-vocab-app" target="_blank"><p class="repo_link">Repo</p></a>
+            </div>
+          </div>    
+        </div>    
+        <div class="project_3">
+          <div class="screenshot">
+            <a href="https://brinew.github.io/nyt-search-api/" target="_blank">
+              <img src="imgs\nyt_search.png">
+            </a>
+          </div>
+          <div class="project_info">
+            <h3>NYT Article Search</h3>
+            <p>jQuery app using the New York Times API to search their archives by state, month, and year.</p>
+            <div class="project_links">
+              <a href="https://brinew.github.io/nyt-search-api/" target="_blank"><p class="demo_link">Demo</p></a>
+              <a href="https://github.com/BriNew/nyt-search-api" target="_blank"><p class="repo_link">Repo</p></a>
+            </div>
+          </div>
+        </div>  
+        </div>
+      </main>
+
+      <footer role="footer">
         <p class="footer_p">Brian Newell 2018</p>
       </footer>
 
